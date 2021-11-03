@@ -844,7 +844,7 @@ Ext.define('ans.VideoJs', {
 				
 				if (!from) {
 					if (enableSwitchWindow != 1) {
-						player.pause();
+// 						player.pause();
 					}
 				}
 			});
