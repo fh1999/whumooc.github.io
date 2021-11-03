@@ -695,7 +695,7 @@ Ext.define('ans.VideoJs', {
 			preload: "none",
 			sources: sources,
 			playlines: cdn,
-			playbackRates: params.doublespeed != 0 ? [1, 5,10,20] : false,
+			playbackRates: params.doublespeed != 0 ? [10,5,1] : false,
 			textTrackDisplay: true,
 
 			controlBar: {
