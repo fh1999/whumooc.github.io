@@ -416,10 +416,10 @@ Ext.define('ans.VideoJs', {
 		var doublespeed = config.params && config.params.doublespeed ? 2 : 1;
 		player.on('ratechange',function() {
 			var nowRate = player.playbackRate();
-			if(nowRate > doublespeed){
-				player.pause();
-				player.playbackRate(1);
-			}
+// 			if(nowRate > doublespeed){
+// 				player.pause();
+// 				player.playbackRate(1);
+// 			}
 		});
 
 		
